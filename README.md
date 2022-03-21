@@ -4,7 +4,7 @@
 Hiring Assignment for Data Engineer position at Visma. For a full assignment description, please visit the [GitHub repository with the assignment details](https://github.com/e-conomic/hiring-assignments/tree/master/machinelearningteam/online-learning-api).
 
 The aim of this project is to build a self-training machine learning API for bookkeeping and a client which could communicate with the API.
-We used the python flask library for setting the app API and prepared a simplified python client executable from the command line. As this is at the POC level, a local host is being used to run the API.
+We used the python flask library for setting the web API and prepared a simplified python client executable from the command line. As this is at the POC level, a local host is being used to run the API.
 
 
 
