@@ -1,4 +1,6 @@
 # online-learning-api
+*Prepared by Maros Jevocin*
+
 Hiring Assignment for Data Engineer position at Visma. For a full assignment description, please visit the [GitHub repository with the assignment details](https://github.com/e-conomic/hiring-assignments/tree/master/machinelearningteam/online-learning-api).
 
 The aim of this project is to build a self-training machine learning API for bookkeeping and a client which could communicate with the API.
@@ -83,3 +85,6 @@ For a production ready state we could start with a solution schematically shown 
 6. make user data secure - SSL certificate / 3rd party solution such as Google Cloud services
 7. who can access which methods (can everyone send samples?) - Policies
 8. add versioning to API paths, if a new version should break client's app
+
+
+<br/>
