@@ -44,6 +44,7 @@ $ flask run
 
 This will start the API on your local host and you are ready to send http calls.
 At this point you should see something like this:
+
 ![screenshot1](screenshot1.png)
 
 You should be able to see http paths for available requests.
@@ -59,6 +60,16 @@ $ python3 ./client/client.py
 ```
 
 The client will provide you further instructions how to work with it.
+At this point you should see something like this:
+
+
+![screenshot2](screenshot2.png)
+
+### Some notes regarding the client
+- in the option 1, you can use relative path to .csv file when using linux or mac OS
+- when the option 1 is executed, you can see that score is being printed on the server side (opened terminal with running flask app), that way I was able to check if model is learning
+- for the option 2, feel free to copy a sample prepared in *predict_sample.txt* or use your own
+- option 3 is optional, currently only as a placeholder, can be added if recommended for further testing my skills 
 
 ## Production ready API diagram
 ![simplified system diagram of the online learning API](online-learing-api.drawio.png?raw=true)
@@ -85,6 +96,3 @@ For a production ready state we could start with a solution schematically shown 
 6. make user data secure - SSL certificate / 3rd party solution such as Google Cloud services
 7. who can access which methods (can everyone send samples?) - Policies
 8. add versioning to API paths, if a new version should break client's app
-
-
-<br/>
