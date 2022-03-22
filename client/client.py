@@ -22,7 +22,7 @@ def print_context():
     print("-----")
     print("1 : to provide a path to sample .csv file for the model training.")
     print("2 : to provide CompanyId, BankEntryText and BankEntryAmount to retrieve AccountNumber suggestion by our learning API.")
-    print("3 : to retrieve the current model score.")
+    print("3 : to retrieve the current model score. [currently only as a placeholder]")
     print("0 : to exit.")
     print("-----")
 
